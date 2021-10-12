@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">TATSAMA Event Planner</h1>
+    <div id="description-box">
+        <p id="description"> We are a team of highly creative and motivated youngsters who have a strong passion for
+            event management and decorations. We take up all kinds of functions and deliver services that best fit your
+            budget. Our implementation models are flexible and can be custmozied according to the plans and ideas of our
+            clients. Please fill the form and leave your contact details to colour your dream event with Tatsama!
+        </p>
+    </div>
+    <form id="survey-form">
+        <div class="form-items">
+            <label for="name" id="name-label">Name</label>
+            <input id="name" class="textfield" type="text" name="name" placeholder="Name">
+        </div>
+
+        <div class="form-items">
+            <label for="email" id="email-label">Email</label>
+            <input id="email" name="email class=" textfield" type="email" placeholder="Email">
+        </div>
+        <div class="form-items">
+            <label for="age" id="age-label">Age(Optional)</label>
+            <input id="age" name="age" class="textfield" type="number" placeholder="Age" max="80" min="18">
+        </div>
+        <div class="form-items">
+            <label for="dropdown-event" id="dropdown-label">What is your event?</label>
+            <select class="dropdown" name="dropdown-event" id="dropdown">
+                <option value="">Select</option>
+                <option value="Birthday Party"> Birthday Party </option>
+                <option value="Haldi">Haldi</option>
+                <option value="Wedding Reception"> Wedding Reception </option>
+                <option value="Bridal Shower"> Bridal Shower</option>
+                <option value="Baby Shower"> Baby Shower</option>
+            </select>
+            <p id="check-question">Have you collaborated with Tatsama before?</p>
+            <div class="form-items> 
+                <label for="yes" class="radio-button" id="label-yes">
+                <input class="checkbox" type="checkbox" id="yes" value="yes">Yes
+                </label>
+                <label for="yes" class="radio-button" id="label-yes" name="yes">
+                    <input class="checkbox" name="no" type="checkbox" id="yes" value="no">No
+                </label>
+            </div>
+            <div id="comments">
+                <label for="comments" id="comments-label">Any Suggestions?</label>
+                <textarea id="comment-text" class="textfield" name="comments" rows="7" cols="30"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+            <p id="end"> Thank You for taking the time to fill the form!</p>
+
+</body>
+
+</html>

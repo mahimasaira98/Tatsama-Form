@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    
+  }
+  
+  h1{
+    margin: 20px;
+    color: #7B3F00;
+    background-color: #c1946a;
+    font-size: 30px;
+    width: 560px;
+  }
+  #description{
+    text-align: justify;
+    margin: 20px;
+  }
+  
+  #description-box{
+    width:600px
+      
+  }
+  .form-items{
+    margin-bottom: 1rem;
+    margin: 20px;
+  }
+  
+  #check-question{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  
+  #comments{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #name, #email, #age, #dropdown{
+    display: flex;
+    border: none;
+    border-bottom: solid 2px #c1946a;
+    border-radius: 10rem;
+    margin: 5px;
+    margin-left: 0px;
+    background-color: #dac292;
+    height: 25px;
+   
+    
+  }
+  
+  ::placeholder{
+    font-size: 0;
+  }
+  #comment-text{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    border: none;
+    border-bottom: solid 2px #c1946a;
+    background-color: #dac292;
+    margin-top: 10px;
+     border-radius: 2rem;
+  }
+  
+  #name:hover, #email:hover, #dropdown:hover {
+    width: 200px;
+    height: 30px;
+  }
+  
+  #age:hover{
+    height: 30px;
+  }
+  
+  #submit{
+    margin: 10px;
+    margin-left: 0px;
+    height: 30px;
+    width: 200px;
+    background-color: #c1946a;
+    font-weight: bold;
+    border-radius: 20rem;
+    cursor: pointer;
+  }
+  
+  #end{
+    font-family: cursive;
+    padding: 20px;
+    font-style: oblique;
+  }
+  body{
+      margin: 20px;
+  }
+  
+ 
